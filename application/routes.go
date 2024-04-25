@@ -11,7 +11,9 @@ func loadRoutes() *chi.Mux {
 
 	router.Use(middleware.Logger)
 
-	router.get("/", func(w http.ResponseWriter, r *http.Request) {
+	router.Get("/", func(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusOK)
 	})
+
+	return router
 }

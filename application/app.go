@@ -10,9 +10,9 @@ type App struct {
 	router http.Handler
 }      
 
-fun New() *App {
+func New() *App {
 	app := &App{
-		router: loadRoutes()
+		router: loadRoutes(),
 	}
 
 	return app
