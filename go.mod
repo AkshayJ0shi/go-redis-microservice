@@ -1,4 +1,4 @@
-module go-tut
+module micro-go-redis
 
 go 1.22.2
 
