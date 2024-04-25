@@ -1,4 +1,4 @@
-module micro-go-redis
+module go-redis-microservice
 
 go 1.22.2
 
