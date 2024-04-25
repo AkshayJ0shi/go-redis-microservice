@@ -27,7 +27,7 @@ func(a *App) Start(ctx context.Context) error {
 	err := server.ListenAndServe()
 
 	if err != nil{
-		return fmt.ErrorF("Failed to start the server: %w", err)
+		return fmt.Errorf("Failed to start the server: %w", err)
 	}
 
 	return nil

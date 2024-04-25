@@ -23,7 +23,7 @@ func (o *Order) UpdateById(w http.ResponseWriter, r *http.Request){
 	fmt.Println("Update order")
 }
 
-func (o *Order) DeletetById(w http.ResponseWriter, r *http.Request){
+func (o *Order) DeleteById(w http.ResponseWriter, r *http.Request){
 	fmt.Println("Delete order")
 }
 
